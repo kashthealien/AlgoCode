@@ -1,0 +1,23 @@
+divisor.cpp:struct factor {
+divisor.cpp:long long int func (const factor fact)
+divisor.cpp:    struct factor facts[20], temp0;
+divisor.cpp:        // While the number has more factors
+divisor.cpp:            // Check if prime number i is a factor and set power to 1
+divisor.cpp:                // Divide the number by the factor as many times as possible
+divisor.cpp:            // If factorisation is complete break out
+divisor.cpp:            sum -= temp;                // Exclude the number itself as a factor
+Binary file fact.class matches
+fact.cpp:void factorial(int x)
+fact.cpp:		factorial(x);		
+fact.java:    public static BigInteger factorial (long n) {
+fact.java:    	    System.out.println(factorial(input));
+Binary file marbles.class matches
+sumSquares.cpp:// A prime factor structure
+sumSquares.cpp:struct factor {
+sumSquares.cpp:    struct factor facts[20];
+sumSquares.cpp:        // While the number has more factors
+sumSquares.cpp:            // Check if prime number i is a factor and set power to 1
+sumSquares.cpp:                // Divide the number by the factor as many times as possible
+sumSquares.cpp:            // If factorisation is complete break out
+test: get all factors of B*N
+test: for all factors,

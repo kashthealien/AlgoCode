@@ -1,0 +1,48 @@
+%{
+#include <stdlib.h>
+#include <stdio.h>
+void yyerror(char*);
+%}
+
+%start set
+%token LETTER
+%%
+
+sett:
+		set
+set:
+        "{" ElementList "}"
+ElementList:
+         ""
+        | List
+
+List:
+        Element
+        | Element "," List
+
+Element:
+        Atom
+        | set
+
+Atom:
+        "{"
+        | "}"
+        | ","
+%%
+void yyerror(char *s)
+{
+	error = 1;
+    return;
+}
+int main(void)
+{
+    /*yydebug=1;*/
+    yyparse();
+    int i = 0;
+    if ( ! error )
+    	printf("Word #%d: Set", i);
+    else
+    	printf("Word #%d: No Set", i)
+    return 0;
+}
+

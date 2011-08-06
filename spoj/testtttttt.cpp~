@@ -1,0 +1,17 @@
+
+#include <string>
+#include <iostream>
+using namespace std;
+
+class A{
+	public:
+		A (string a) {str = a;}
+	string str;
+};
+
+int main()
+{
+	A *a = new A("asdf");
+
+	cout << a->str;
+}

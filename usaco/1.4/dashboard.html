@@ -1,0 +1,827 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+
+
+<meta http-equiv="refresh" content="172795">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Round 1A 2009: Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="dashboard_files/base.css">
+  <link rel="stylesheet" type="text/css" href="dashboard_files/dashboard.css">
+  
+  <script type="text/javascript" src="dashboard_files/Dashboard.js"></script>
+  
+  <script type="text/javascript"><!--
+    /**
+     * Initializes GCJ.problems and GCJ.io from Django parameters.
+     * Also initializes the two user specific variables GCJ.isQualified and
+     * GCJ.lastClarSeenTime.
+     * This is the first function called once from GCJ.main().
+     */
+    GCJ.initContestVariables = function () {
+      // Convert Django's 'contest' to 'GCJ.contest'.
+      GCJ.contest.id = "188266";
+      GCJ.contest.name = "Round 1A 2009";
+      GCJ.contest.version = 0;
+      
+        GCJ.contest.version = 4;
+      
+      GCJ.contest.start_int = 1252717200;
+      GCJ.base_url = '/codejam/contest';
+
+      GCJ.isQualified = 1;
+      GCJ.isLoggedIn = 1;
+      GCJ.hasAnalysis = 0;
+      // Convert Django's 'problems' to JS 'GCJ.problems'.
+      
+        GCJ.problems.push({
+            "id": "168107",
+            "key": "agxjb2RlamFtLXByb2RyEAsSCHByb2JsZW1zGKuhCgw",
+            "name": "Multi-base happiness",
+            "type": "default"
+        });
+      
+        GCJ.problems.push({
+            "id": "144111",
+            "key": "agxjb2RlamFtLXByb2RyEAsSCHByb2JsZW1zGO_lCAw",
+            "name": "Crossing the Road",
+            "type": "default"
+        });
+      
+        GCJ.problems.push({
+            "id": "190103",
+            "key": "agxjb2RlamFtLXByb2RyEAsSCHByb2JsZW1zGJfNCww",
+            "name": "Collecting Cards",
+            "type": "eps=1e-5"
+        });
+      
+
+  
+      // Convert Django's 'all_io' to JS 'GCJ.io'.
+      var io;
+      
+        io = new Array();
+        stat = new Array();
+        
+          io.push({
+              "difficulty": 0,
+              "points": 9,
+              "attempts": 0,
+              "secsSolved": -1,
+              "secsPassed": -1
+          });
+        
+          io.push({
+              "difficulty": 1,
+              "points": 18,
+              "attempts": 0,
+              "secsSolved": -1,
+              "secsPassed": -1
+          });
+        
+        GCJ.io.push(io);
+      
+        io = new Array();
+        stat = new Array();
+        
+          io.push({
+              "difficulty": 0,
+              "points": 13,
+              "attempts": 0,
+              "secsSolved": -1,
+              "secsPassed": -1
+          });
+        
+          io.push({
+              "difficulty": 1,
+              "points": 20,
+              "attempts": 0,
+              "secsSolved": -1,
+              "secsPassed": -1
+          });
+        
+        GCJ.io.push(io);
+      
+        io = new Array();
+        stat = new Array();
+        
+          io.push({
+              "difficulty": 0,
+              "points": 10,
+              "attempts": 0,
+              "secsSolved": -1,
+              "secsPassed": -1
+          });
+        
+          io.push({
+              "difficulty": 1,
+              "points": 30,
+              "attempts": 0,
+              "secsSolved": -1,
+              "secsPassed": -1
+          });
+        
+        GCJ.io.push(io);
+      
+    };
+  //--></script>
+</head><body onload="GCJ.main()">
+<div id="logo-div">
+  <a href="http://code.google.com/codejam/contest/">
+    <img src="dashboard_files/logo_image0.gif" id="logo" alt="Google Code Jam">
+  </a>
+</div>
+
+<div>
+
+
+<div style="display: none;">
+  <form id="csrf-form-GetInputFile"><div style="display: none;"><input name="csrfmiddlewaretoken" value="NDE5ZTg1NzQ4YjE3ZTg5ZDUwMzY0MjQ4YjBjMjYxNWR8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldElucHV0RmlsZXwxMjUyNzE3MjA2NTI5NDY4" type="hidden"></div>
+    <input name="cmd" value="GetInputFile" type="hidden">
+  </form>
+  <form id="csrf-form-GetProblemText"><div style="display: none;"><input name="csrfmiddlewaretoken" value="ODNiOWQ4MzYyY2FiZGZmMTRkZmYzNjJlOTUyZDczYTB8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldFByb2JsZW1UZXh0fDEyNTI3MTcyMDY1MzAzNzE=" type="hidden"></div>
+    <input name="cmd" value="GetProblemText" type="hidden">
+  </form>
+  <form id="csrf-form-GetContestAnalysis"><div style="display: none;"><input name="csrfmiddlewaretoken" value="NzhlNDY3NGQzN2Y2MzY2OTljYzE2MmNjZjUyYmM2MTF8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldENvbnRlc3RBbmFseXNpc3wxMjUyNzE3MjA2NTMwNTkz" type="hidden"></div>
+    <input name="cmd" value="GetContestAnalysis" type="hidden">
+  </form>
+  <form id="csrf-form-SubmitAnswer"><div style="display: none;"><input name="csrfmiddlewaretoken" value="OTgzYjE0NDg3M2U1ZTU4ODc0OWI3MjlkOTkxNDYzNzB8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fFN1Ym1pdEFuc3dlcnwxMjUyNzE3MjA2NTMxMDgw" type="hidden"></div>
+    <input name="cmd" value="SubmitAnswer" type="hidden">
+  </form>
+  <form id="csrf-form-AskClarification"><div style="display: none;"><input name="csrfmiddlewaretoken" value="MDM2MTVlOTNiNzExZWI5ZjNkNWZmZTIzMWRjNzk1OTN8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEFza0NsYXJpZmljYXRpb258MTI1MjcxNzIwNjUzMTMxOQ==" type="hidden"></div>
+    <input name="cmd" value="AskClarification" type="hidden">
+  </form>
+  <form id="csrf-form-GetUserStatus"><div style="display: none;"><input name="csrfmiddlewaretoken" value="MDIwZTMwNjhlNzljYjhmMjRkNjQ4NjYzYmE3Mzk5MTV8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldFVzZXJTdGF0dXN8MTI1MjcxNzIwNjUzMTU4NQ==" type="hidden"></div>
+    <input name="cmd" value="GetUserStatus" type="hidden">
+  </form>
+  <form id="csrf-form-GetClarifications"><div style="display: none;"><input name="csrfmiddlewaretoken" value="ODhhOTVhNmRlYjc5ZTc3ODBhMTY0OGZkYWJiMTZhMGR8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldENsYXJpZmljYXRpb25zfDEyNTI3MTcyMDY1MzE4NTU=" type="hidden"></div>
+    <input name="cmd" value="GetClarifications" type="hidden">
+  </form>
+  <form id="csrf-form-GetSubmissionInfo"><div style="display: none;"><input name="csrfmiddlewaretoken" value="OWIyNmEwNmU0YmFlZDExMDBlZDg1ZWRkMDkyYzFhY2Z8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldFN1Ym1pc3Npb25JbmZvfDEyNTI3MTcyMDY1MzIyMjk=" type="hidden"></div>
+    <input name="cmd" value="GetSubmissionInfo" type="hidden">
+  </form>
+  <form id="csrf-form-GetScoreboardTops"><div style="display: none;"><input name="csrfmiddlewaretoken" value="YjllMzU2MTIxNDMzNTdiMTgwZDVkMGY5Yjg4ZTMxNTN8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldFNjb3JlYm9hcmRUb3BzfDEyNTI3MTcyMDY1MzI0NzM=" type="hidden"></div>
+    <input name="cmd" value="GetScoreboardTops" type="hidden">
+  </form>
+  <form id="csrf-form-SetClarificationLastSeenTime"><div style="display: none;"><input name="csrfmiddlewaretoken" value="ODk4ODMzMzJjMTVhZjVmZmE5MzJiMjg3ZmI0YmU4NDl8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fFNldENsYXJpZmljYXRpb25MYXN0U2VlblRpbWV8MTI1MjcxNzIwNjUzMjcxNA==" type="hidden"></div>
+    <input name="cmd" value="SetClarificationLastSeenTime" type="hidden">
+  </form>
+  <form id="csrf-form-GetInput"><div style="display: none;"><input name="csrfmiddlewaretoken" value="M2I0ZTQ5Y2JlNWY5MDMxYjlkMzU5NTBhNGRlNjMxZmN8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldElucHV0fDEyNTI3MTcyMDY1MzMzMDQ=" type="hidden"></div>
+    <input name="cmd" value="GetInput" type="hidden">
+  </form>
+  <form id="csrf-form-GetOutput"><div style="display: none;"><input name="csrfmiddlewaretoken" value="ZGU2MWI1MmE2ZjhiMzlkMTY2NjJlMGFjNzVmZjRlMDR8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldE91dHB1dHwxMjUyNzE3MjA2NTMzNTY1" type="hidden"></div>
+    <input name="cmd" value="GetOutput" type="hidden">
+  </form>
+  <form id="csrf-form-GetSource"><div style="display: none;"><input name="csrfmiddlewaretoken" value="MmM3ODhmNzQwOThjNDUxODlhN2NkOGEwMTAxY2RlMmF8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldFNvdXJjZXwxMjUyNzE3MjA2NTMzODQ0" type="hidden"></div>
+    <input name="cmd" value="GetSource" type="hidden">
+  </form>
+  <form id="csrf-form-GetInitialValues"><div style="display: none;"><input name="csrfmiddlewaretoken" value="NThmYmYxNjcyNjU0Y2FmYzI4NjFlN2U5ZWNhNDQxNmR8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fEdldEluaXRpYWxWYWx1ZXN8MTI1MjcxNzIwNjUzNTM1Ng==" type="hidden"></div>
+    <input name="cmd" value="GetInitialValues" type="hidden">
+  </form>
+</div>
+
+
+<div style="display: block;" id="dsb-page-body">
+
+<div id="left-panel">
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <!-- Problem Selection Panel -->
+  <div id="dsb-contest-title">Round 1A 2009</div>
+  <hr class="dsb-hr">
+  <div>
+    
+    <div id="dsb-problem-tab0" class="dsb-problem-tab-open">
+      <div id="dsb-problem-title0" class="dynamic-link">
+        A. Multi-base happiness
+      </div>
+    </div>
+    
+    <div id="dsb-problem-tab1" class="dsb-problem-tab-close">
+      <div id="dsb-problem-title1" class="dynamic-link">
+        B. Crossing the Road
+      </div>
+    </div>
+    
+    <div id="dsb-problem-tab2" class="dsb-problem-tab-close">
+      <div id="dsb-problem-title2" class="dynamic-link">
+        C. Collecting Cards
+      </div>
+    </div>
+    
+  </div>
+  <hr class="dsb-hr">
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <div style="display: none;" id="dsb-analysis-button" class="dsb-anal-tab-close">
+    <div class="dynamic-link">
+       <div id="dsb-analysis-tab">
+         Contest Analysis
+       </div>
+    </div>
+  </div>
+  <div id="dsb-ask-question-button" class="dsb-clar-tab-close">
+    <div class="dynamic-link">
+       <div class="" id="dsb-ask-question-tab">Ask a question</div>
+    </div>
+  </div>
+  <div id="dsb-submissions-button" class="dsb-submissions-tab-close">
+    <div class="dynamic-link">
+      <div id="dsb-submissions-tab">
+        View my submissions
+      </div>
+    </div>
+  </div>
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <div class="dsb-mini-tab-wrapper">
+  <div id="dsb-status-div">
+    <div id="dsb-status-header-div" onmouseover="this.style.cursor='pointer'" onclick="GCJ.toggleVisibility(
+            'dsb-status-tab',
+            'dsb-status-panel-button',
+            '/codejam/contest/static/minus.gif',
+            '/codejam/contest/static/plus.gif')">
+        <img id="dsb-status-panel-button" src="dashboard_files/minus.gif">
+        &nbsp; Submissions
+    </div>
+    <div style="display: block;" id="dsb-status-tab">
+    
+      <div id="problemStatusWrapper0" class="problemStatusWrapper">
+        <div class="dsb-status-problem-title">Multi-base happiness</div>
+        
+        <!-- Input Stats -->
+        <table class="problemStatus">
+        <tbody>
+          <tr class="inputSetStatus">
+            <td id="inputName0_0" class="inputName">9pt</td>
+            <td class="status">
+              <div id="selfStat0_0" class="dsb-mini-status-non-highlight">No submissions</div>
+              <div style="display: block;" id="globalStat0_0" class="globalStat"><b>267/346 users</b>  correct (77%)</div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        
+        <!-- Input Stats -->
+        <table class="problemStatus">
+        <tbody>
+          <tr class="inputSetStatus">
+            <td id="inputName0_1" class="inputName">18pt</td>
+            <td class="status">
+              <div id="selfStat0_1" class="dsb-mini-status-non-highlight">No submissions</div>
+              <div style="display: none;" id="globalStat0_1" class="globalStat"></div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        
+      </div>
+    
+      <div id="problemStatusWrapper1" class="problemStatusWrapper">
+        <div class="dsb-status-problem-title">Crossing the Road</div>
+        
+        <!-- Input Stats -->
+        <table class="problemStatus">
+        <tbody>
+          <tr class="inputSetStatus">
+            <td id="inputName1_0" class="inputName">13pt</td>
+            <td class="status">
+              <div id="selfStat1_0" class="dsb-mini-status-non-highlight">No submissions</div>
+              <div style="display: block;" id="globalStat1_0" class="globalStat"><b>0/2 users</b>  correct (0%)</div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        
+        <!-- Input Stats -->
+        <table class="problemStatus">
+        <tbody>
+          <tr class="inputSetStatus">
+            <td id="inputName1_1" class="inputName">20pt</td>
+            <td class="status">
+              <div id="selfStat1_1" class="dsb-mini-status-non-highlight">No submissions</div>
+              <div style="display: none;" id="globalStat1_1" class="globalStat"></div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        
+      </div>
+    
+      <div id="problemStatusWrapper2" class="problemStatusWrapper">
+        <div class="dsb-status-problem-title">Collecting Cards</div>
+        
+        <!-- Input Stats -->
+        <table class="problemStatus">
+        <tbody>
+          <tr class="inputSetStatus">
+            <td id="inputName2_0" class="inputName">10pt</td>
+            <td class="status">
+              <div id="selfStat2_0" class="dsb-mini-status-non-highlight">No submissions</div>
+              <div style="display: block;" id="globalStat2_0" class="globalStat"><b>11/33 users</b>  correct (33%)</div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        
+        <!-- Input Stats -->
+        <table class="problemStatus">
+        <tbody>
+          <tr class="inputSetStatus">
+            <td id="inputName2_1" class="inputName">30pt</td>
+            <td class="status">
+              <div id="selfStat2_1" class="dsb-mini-status-non-highlight">No submissions</div>
+              <div style="display: none;" id="globalStat2_1" class="globalStat"></div>
+            </td>
+          </tr>
+        </tbody>
+        </table>
+        
+      </div>
+    
+    </div>
+  </div>
+  </div>
+  <div class="v-divider"></div>
+  <div class="v-divider"></div>
+  <!-- Mini Scoreboard -->
+  <div class="dsb-mini-tab-wrapper">
+    <div id="dsb-scoreboard-div">
+      <div id="dsb-scoreboard-header-div" onmouseover="this.style.cursor='pointer'" onclick="GCJ.toggleVisibility(
+              'dsb-scoreboard-table',
+              'dsb-scoreboard-panel-button',
+              '/codejam/contest/static/minus.gif',
+              '/codejam/contest/static/plus.gif')">
+          <img id="dsb-scoreboard-panel-button" src="dashboard_files/minus.gif">
+          &nbsp; Top Scores
+      </div>
+      <div id="dsb-scoreboard-table-wrap"><table style="display: block;" id="dsb-scoreboard-table"><tbody><tr class="dsb-scoreboard-row-even"><td title="" class="dsb-name-td" id="sbName_0">LayCurse</td><td class="dsb-score-td" id="sbScore_0">67</td></tr><tr class="dsb-scoreboard-row-odd"><td title="" class="dsb-name-td" id="sbName_1">crazyb0y</td><td class="dsb-score-td" id="sbScore_1">40</td></tr><tr class="dsb-scoreboard-row-even"><td title="" class="dsb-name-td" id="sbName_2">Maryann</td><td class="dsb-score-td" id="sbScore_2">40</td></tr><tr class="dsb-scoreboard-row-odd"><td title="" class="dsb-name-td" id="sbName_3">tanaeem</td><td class="dsb-score-td" id="sbScore_3">40</td></tr><tr class="dsb-scoreboard-row-even"><td title="" class="dsb-name-td" id="sbName_4">yiuyuho</td><td class="dsb-score-td" id="sbScore_4">40</td></tr><tr class="dsb-scoreboard-row-odd"><td title="" class="dsb-name-td" id="sbName_5">wcao</td><td class="dsb-score-td" id="sbScore_5">40</td></tr><tr class="dsb-scoreboard-row-even"><td title="" class="dsb-name-td" id="sbName_6">misof</td><td class="dsb-score-td" id="sbScore_6">40</td></tr><tr class="dsb-scoreboard-row-odd"><td title="" class="dsb-name-td" id="sbName_7">rem</td><td class="dsb-score-td" id="sbScore_7">27</td></tr><tr class="dsb-scoreboard-row-even"><td title="" class="dsb-name-td" id="sbName_8">Ryan</td><td class="dsb-score-td" id="sbScore_8">27</td></tr><tr class="dsb-scoreboard-row-odd"><td title="" class="dsb-name-td" id="sbName_9">sjelkjd</td><td class="dsb-score-td" id="sbScore_9">27</td></tr></tbody></table></div>
+      <div class="dsb-mini-tab-link">
+        <a target="new" href="http://code.google.com/codejam/contest/scoreboard?c=188266">
+          Full scoreboard
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="right-panel">
+  <div style="visibility: hidden;" id="dsb-status-msg-wrapper" class="dsb-status-msg-wrapper">
+    <div id="dsb-status-msg" class="dsb-status-msg">
+      <span id="dsb-status-msg-text"></span>
+      <span id="dsb-view-it-link">View it.</span>
+    </div>
+  </div>
+
+  <div id="dsb-contest-title-bar">
+  <div id="dsb-rank-etc">
+    <div id="dsb-time-remaining">
+      Time Remaining: <span id="contestTimer">1hr 57min</span>
+    </div>
+    <div id="dsb-current-rank-div">
+      Rank: <span id="dsb-current-rank-span">280</span>
+    </div>
+    <div id="dsb-current-score-div">
+      Score: <span id="dsb-current-score-span">0</span>
+    </div>
+  </div>
+  
+    <b>kashthealien@gmail.com</b> |
+    <a href="http://code.google.com/_ah/logout?continue=https://www.google.com/accounts/Logout%3Fcontinue%3Dhttp://code.google.com/codejam/contest%26service%3Dah">Sign out</a>
+  
+  </div>
+
+  <!-- Problem Statement -->
+  <div id="main-panel-border" class="dsb-blue-border">
+  <div id="dsb-border-inner">
+    <!-- Problem Statement Title -->
+    <div id="dsb-problem-title-div">Multi-base happiness</div>
+
+    
+    <div style="display: block;" id="dsb-problem-page0" class="dsb-content-pages">
+      <!-- Problem Input File Selection -->
+      <div class="dsb-input-panel-text">
+        
+        <span>
+          Read the problem statement below, then download the inputs when you're ready.
+        </span>
+        <span style="color: rgb(102, 102, 102);">
+          <br>(you will have limited time to submit your answer)
+        </span>
+        
+      </div>
+      <table><tbody id="dsb-input-form-table0"><tr><td class="dsb-input-table-description">Small input<br>9 points</td><td class="dsb-input-table-linktd"><div style="display: inline;" class="dsb-input-wrapper" id="dsb-input-wrapper0-0"><span id="dsb-input-link-plain0-0" class="dsb-input-link-span"><img src="dashboard_files/file.gif" class="dsb-input-link-img"><span id="dsb-input-link-plain-text0-0" class="dsb-input-link-text">Download A-small.in</span></span><span id="dsb-input-more-options-link0-0" class="dsb-input-more-options">More options  &nbsp; <span style="font-size: 80%;">▼</span></span></div><span style="display: none;" id="dsb-submission-switch0-0" class="dsb-submission-switch">Submit</span><span style="display: block;" id="dsb-input-table-caption0-0" class="dsb-input-table-caption">You may try multiple times. (Penalty for incorrect submissions.)</span><span style="display: none;" id="dsb-resubmit-caption0-0" class="dsb-input-table-caption">Your submission was received. You can still <span class="dsb-input-link-text">resubmit</span> for <span id="dsb-resubmit-timer0-0"></span> minutes.<br> Only your last submission counts.</span><div><div style="display: none;" id="dsb-submit-form-div0-0" class="dsb-submit-form-div">temp</div></div></td></tr><tr><td class="dsb-input-table-description">Large input<br>18 points</td><td class="dsb-input-table-linktd"><div style="display: inline;" class="dsb-input-wrapper" id="dsb-input-wrapper0-1"><span id="dsb-input-link-plain0-1" class="dsb-input-link-span"><img src="dashboard_files/file.gif" class="dsb-input-link-img"><span id="dsb-input-link-plain-text0-1" class="dsb-input-link-text">Download A-large.in</span></span><span id="dsb-input-more-options-link0-1" class="dsb-input-more-options">More options  &nbsp; <span style="font-size: 80%;">▼</span></span></div><span style="display: none;" id="dsb-submission-switch0-1" class="dsb-submission-switch">Submit</span><span style="display: block;" id="dsb-input-table-caption0-1" class="dsb-input-table-caption">You have 8 minutes to solve 1 input file. (Judged after contest.)</span><span style="display: none;" id="dsb-resubmit-caption0-1" class="dsb-input-table-caption">Your submission was received. You can still <span class="dsb-input-link-text">resubmit</span> for <span id="dsb-resubmit-timer0-1"></span> minutes.<br> Only your last submission counts.</span><div><div style="display: none;" id="dsb-submit-form-div0-1" class="dsb-submit-form-div">temp</div></div></td></tr></tbody></table>
+      <!-- Problem Statement -->
+      <div id="dsb-problem-content-div0" class="dsb-problem-content-div"><p class="problem-item">Problem</p>
+
+<p>Given an integer N, replace it by the sum of the squares of its
+digits. A happy number is a number where, if you apply this process
+repeatedly, it eventually results in the number 1. For example, if you
+start with 82:</p>
+
+<pre>8*8 + 2*2       = 64 + 4    = 68,  repeat:
+6*6 + 8*8       = 36 + 64   = 100, repeat:
+1*1 + 0*0 + 0*0 = 1 + 0 + 0 = 1 (happy! :)
+</pre>
+<p>Since this process resulted in 1, 82 is a happy number.</p>
+
+<p>Notice that a number might be happy in some bases, but not happy in
+others. For instance, the base 10 number 82 is not a happy number when
+written in base 3.</p>
+
+<p>You are one of the world's top number detectives. Some of the bases
+got together (yes, they are organized!) and hired you for an important
+task: find out what's the smallest integer number that's greater than 1
+and is happy in all the given bases.</p>
+
+<p class="problem-item">Input</p>
+
+<p>The first line of input gives the number of cases <b>T</b>. <b>T</b>
+test cases follow. Each case consists of a single line. Each line
+contains a space separated list of distinct integers, representing the
+bases. The list of bases is always in increasing order.
+</p><p class="problem-item">Output</p>
+
+<p>For each test case, output: </p><pre>Case #<b>X</b>: <b>K</b></pre> where <b>X</b> is the test case number, starting from 1, and <b>K</b> is the decimal representation of the smallest integer (greater than 1) which is happy in all of the given bases.
+
+<p class="problem-item">Limits</p>
+<p>2 ≤ all possible input bases ≤ 10</p>
+<p class="problem-item">Small dataset</p>
+<p>1 ≤ <b>T</b> ≤ 42</p>
+<p>2 ≤ number of bases on each test case ≤ 3</p>
+<p class="problem-item">Large dataset</p>
+<p>1 ≤ <b>T</b> ≤ 500</p>
+<p>2 ≤ number of bases on each test case ≤ 9</p>
+
+<p class="problem-item">Sample</p>
+<div class="problem-io-wrapper">
+<table>
+<tbody><tr>
+<td>
+<br>
+<span class="problem-item-gray">Input</span>
+<br>&nbsp;
+</td>
+<td>
+<br>
+<span class="problem-item-gray">Output</span>
+<br>&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+<code>
+3<br>
+2 3<br>
+2 3 7<br>
+9 10<br>
+</code>
+</td>
+<td>
+<code>
+Case #1: 3<br>
+Case #2: 143<br>
+Case #3: 91<br>
+</code>
+</td></tr></tbody></table>
+</div>
+
+
+<p class="problem-item">Important Note</p>
+<p>Please remember that you must submit all code used to solve the problem.</p></div>
+    </div>
+    
+    <div style="display: none;" id="dsb-problem-page1" class="dsb-content-pages">
+      <!-- Problem Input File Selection -->
+      <div class="dsb-input-panel-text">
+        
+        <span>
+          Read the problem statement below, then download the inputs when you're ready.
+        </span>
+        <span style="color: rgb(102, 102, 102);">
+          <br>(you will have limited time to submit your answer)
+        </span>
+        
+      </div>
+      <table><tbody id="dsb-input-form-table1"><tr><td class="dsb-input-table-description">Small input<br>13 points</td><td class="dsb-input-table-linktd"><div style="display: inline;" class="dsb-input-wrapper" id="dsb-input-wrapper1-0"><span id="dsb-input-link-plain1-0" class="dsb-input-link-span"><img src="dashboard_files/file.gif" class="dsb-input-link-img"><span id="dsb-input-link-plain-text1-0" class="dsb-input-link-text">Download B-small.in</span></span><span id="dsb-input-more-options-link1-0" class="dsb-input-more-options">More options  &nbsp; <span style="font-size: 80%;">▼</span></span></div><span style="display: none;" id="dsb-submission-switch1-0" class="dsb-submission-switch">Submit</span><span style="display: block;" id="dsb-input-table-caption1-0" class="dsb-input-table-caption">You may try multiple times. (Penalty for incorrect submissions.)</span><span style="display: none;" id="dsb-resubmit-caption1-0" class="dsb-input-table-caption">Your submission was received. You can still <span class="dsb-input-link-text">resubmit</span> for <span id="dsb-resubmit-timer1-0"></span> minutes.<br> Only your last submission counts.</span><div><div style="display: none;" id="dsb-submit-form-div1-0" class="dsb-submit-form-div">temp</div></div></td></tr><tr><td class="dsb-input-table-description">Large input<br>20 points</td><td class="dsb-input-table-linktd"><div style="display: inline;" class="dsb-input-wrapper" id="dsb-input-wrapper1-1"><span id="dsb-input-link-plain1-1" class="dsb-input-link-span"><img src="dashboard_files/file.gif" class="dsb-input-link-img"><span id="dsb-input-link-plain-text1-1" class="dsb-input-link-text">Download B-large.in</span></span><span id="dsb-input-more-options-link1-1" class="dsb-input-more-options">More options  &nbsp; <span style="font-size: 80%;">▼</span></span></div><span style="display: none;" id="dsb-submission-switch1-1" class="dsb-submission-switch">Submit</span><span style="display: block;" id="dsb-input-table-caption1-1" class="dsb-input-table-caption">You have 8 minutes to solve 1 input file. (Judged after contest.)</span><span style="display: none;" id="dsb-resubmit-caption1-1" class="dsb-input-table-caption">Your submission was received. You can still <span class="dsb-input-link-text">resubmit</span> for <span id="dsb-resubmit-timer1-1"></span> minutes.<br> Only your last submission counts.</span><div><div style="display: none;" id="dsb-submit-form-div1-1" class="dsb-submit-form-div">temp</div></div></td></tr></tbody></table>
+      <!-- Problem Statement -->
+      <div id="dsb-problem-content-div1" class="dsb-problem-content-div"><p class="problem-item">Problem</p>
+
+<p>Where roads intersect, there are often traffic lights that tell
+pedestrians (people walking) when they should cross the street. A
+clever pedestrian may try to optimize her path through a city based on
+when those lights turn green.</p>
+<p>The city in this problem is a grid, <b>N</b> rows tall by <b>M</b>
+columns wide. Our pedestrian wants to get from the northeast corner of
+the southwest block to the southwest corner of the northeast block.
+Your objective is to help her find her way from corner to corner in the
+fastest way possible.</p>
+<p>The pedestrian can cross a street in 1 minute, but only if the
+traffic light is green. The pedestrian can move between two streets,
+along one edge of a block, in 2 minutes. The pedestrian can only move
+along the edges of the block; she cannot move diagonally from one
+corner of a block to the opposite corner.</p>
+<br><br>
+<img src="dashboard_files/a_002.png">
+<br><br><br>
+<p>Traffic lights follow the following pattern: at intersection <i>i</i>, the north-south lights stay green for <b>S<sub>i</sub></b>
+minutes, while the east-west lights stay red. Then the north-south
+lights turn red, the east-west lights turn green, and they stay that
+way for <b>W<sub>i</sub></b> minutes. Then they start the same cycle
+again. The pedestrian starts moving at t=0 minutes; traffic light i
+starts a cycle by turning green in the north-south direction at t=<b>T<sub>i</sub></b> minutes.</p>
+<p>For example, intersection 0 could have the following values:</p>
+<p><code>
+S<sub>0</sub> = 3, W<sub>0</sub> = 2, T<sub>0</sub> = 0<br>
+</code></p>
+<p>The north-south direction turns green after 0 minutes. That lasts 3
+minutes, during which time the pedestrian can cross in the north-south
+direction and not the east-west direction. Then the lights switch, and
+for the next 2 minutes the pedestrian can cross in the east-west
+direction and not the north-south direction. Then, 5 minutes after it
+started, the cycle starts again. This is exactly the same as the
+following configuration:
+</p><p><code>
+S<sub>0</sub> = 3, W<sub>0</sub> = 2, T<sub>0</sub> = 10<br>
+</code></p>
+
+<p class="problem-item">Input</p>
+<p>The first line in the input contains the number of test cases, <b>C</b>.  This is followed by <b>C</b> test cases in the following format:</p>
+<p>A single line containing "<b>N</b> <b>M</b>", where <b>N</b> and <b>M</b> are the number of horizontal roads (rows) and vertical roads (columns), as above.  This is followed by <b>N</b> lines.  The <i>i</i>th of those lines contains information about intersections on the <i>i</i>th row, starting from the north and moving to the south.  Each of those lines will contain 3<b>M</b> integers, separated by spaces, in the following form:</p>
+<p><code>
+S<sub>i,0</sub> W<sub>i,0</sub> T<sub>i,0</sub> S<sub>i,1</sub> W<sub>i,1</sub> T<sub>i,1</sub>... S<sub>i,M-1</sub> W<sub>i,M-1</sub> T<sub>i,M-1</sub>
+</code></p>
+<p><b>S</b><sub>i,j</sub>, <b>W</b><sub>i,j</sub> and <b>T</b><sub>i,j</sub> all refer to the intersection in the ith row from the north and the jth column from the west.</p>
+
+<p class="problem-item">Output</p>
+<p>For each test case, output a single line containing the text "Case
+#x: t", where x is the number of the test case and t is the minimum
+number of minutes it takes the pedestrian to get from the bottom-left
+corner to the top-right corner.</p>
+
+<p class="problem-item">Limits</p>
+<b>C</b>, <b>N</b>, <b>M</b>, <b>S</b><sub>i,j</sub>, <b>W</b><sub>i,j</sub>, <b>T</b><sub>i,j</sub> are all non-negative integers.<br>
+<b>C</b> ≤ 100<br>
+
+<p class="problem-item">Small Input</p>
+1 ≤ <b>N</b>, <b>M</b> ≤ 3<br>
+0 &lt; <b>S</b><sub>i,j</sub>, <b>W</b><sub>i,j</sub> ≤ 10<br>
+0 ≤ <b>T</b><sub>i,j</sub> ≤ 20<br>
+
+<p class="problem-item">Large Input</p>
+1 ≤ <b>N</b>, <b>M</b> ≤ 20<br>
+0 &lt; <b>S</b><sub>i,j</sub>, <b>W</b><sub>i,j</sub> ≤ 10<sup>7</sup><br>
+0 ≤ <b>T</b><sub>i,j</sub> ≤ 10<sup>8</sup><br>
+
+<p class="problem-item">Sample</p>
+<div class="problem-io-wrapper">
+<table>
+<tbody><tr>
+<td>
+<br>
+<span class="problem-item-gray">Input</span>
+<br>&nbsp;
+</td>
+<td>
+<br>
+<span class="problem-item-gray">Output</span>
+<br>&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+<code>
+2<br>
+1 1<br>
+3 2 10<br>
+1 2<br>
+1 5 3 1 5 2<br>
+</code>
+</td>
+<td>
+<code>
+Case #1: 4<br>
+Case #2: 7<br>
+</code>
+</td></tr></tbody></table>
+</div>
+<p class="problem-item">Explanation</p>
+<p>The first case is described above. The pedestrian crosses to the
+North (1 minute), waits 2 minutes and then crosses to the East (1
+minute), for a total of 4 minutes.</p>
+<p>The second case is depicted in the diagram below. The pedestrian
+crosses to the East (1 minute), waits 2 minutes and crosses to the
+North (1 minute). Then she walks east a block (2 minutes) and crosses
+to the East (1 minute) for a total of 7 minutes.</p>
+<br><br>
+<img src="dashboard_files/a.png">
+<br><br>
+<br></div>
+    </div>
+    
+    <div style="display: none;" id="dsb-problem-page2" class="dsb-content-pages">
+      <!-- Problem Input File Selection -->
+      <div class="dsb-input-panel-text">
+        
+        <span>
+          Read the problem statement below, then download the inputs when you're ready.
+        </span>
+        <span style="color: rgb(102, 102, 102);">
+          <br>(you will have limited time to submit your answer)
+        </span>
+        
+      </div>
+      <table><tbody id="dsb-input-form-table2"><tr><td class="dsb-input-table-description">Small input<br>10 points</td><td class="dsb-input-table-linktd"><div style="display: inline;" class="dsb-input-wrapper" id="dsb-input-wrapper2-0"><span id="dsb-input-link-plain2-0" class="dsb-input-link-span"><img src="dashboard_files/file.gif" class="dsb-input-link-img"><span id="dsb-input-link-plain-text2-0" class="dsb-input-link-text">Download C-small.in</span></span><span id="dsb-input-more-options-link2-0" class="dsb-input-more-options">More options  &nbsp; <span style="font-size: 80%;">▼</span></span></div><span style="display: none;" id="dsb-submission-switch2-0" class="dsb-submission-switch">Submit</span><span style="display: block;" id="dsb-input-table-caption2-0" class="dsb-input-table-caption">You may try multiple times. (Penalty for incorrect submissions.)</span><span style="display: none;" id="dsb-resubmit-caption2-0" class="dsb-input-table-caption">Your submission was received. You can still <span class="dsb-input-link-text">resubmit</span> for <span id="dsb-resubmit-timer2-0"></span> minutes.<br> Only your last submission counts.</span><div><div style="display: none;" id="dsb-submit-form-div2-0" class="dsb-submit-form-div">temp</div></div></td></tr><tr><td class="dsb-input-table-description">Large input<br>30 points</td><td class="dsb-input-table-linktd"><div style="display: inline;" class="dsb-input-wrapper" id="dsb-input-wrapper2-1"><span id="dsb-input-link-plain2-1" class="dsb-input-link-span"><img src="dashboard_files/file.gif" class="dsb-input-link-img"><span id="dsb-input-link-plain-text2-1" class="dsb-input-link-text">Download C-large.in</span></span><span id="dsb-input-more-options-link2-1" class="dsb-input-more-options">More options  &nbsp; <span style="font-size: 80%;">▼</span></span></div><span style="display: none;" id="dsb-submission-switch2-1" class="dsb-submission-switch">Submit</span><span style="display: block;" id="dsb-input-table-caption2-1" class="dsb-input-table-caption">You have 8 minutes to solve 1 input file. (Judged after contest.)</span><span style="display: none;" id="dsb-resubmit-caption2-1" class="dsb-input-table-caption">Your submission was received. You can still <span class="dsb-input-link-text">resubmit</span> for <span id="dsb-resubmit-timer2-1"></span> minutes.<br> Only your last submission counts.</span><div><div style="display: none;" id="dsb-submit-form-div2-1" class="dsb-submit-form-div">temp</div></div></td></tr></tbody></table>
+      <!-- Problem Statement -->
+      <div id="dsb-problem-content-div2" class="dsb-problem-content-div"><p class="problem-item">Problem</p>
+<p>
+You've become addicted to the latest craze in collectible card games,
+PokeCraft: The Gathering. You've mastered the rules! You've crafted
+balanced, offensive, and defensive decks! You argue the merits of
+various cards on Internet forums! You compete in tournaments! And now,
+as they just announced the huge coming set of 2010 cards, you've
+decided you'd like to collect every last one of them! Fortunately, the
+one remaining sane part of your brain is wondering: how much will this
+cost?
+</p>
+<p>
+There are <b>C</b> kinds of card in the coming set.  The cards are going to be sold in "booster packs", each of which contains <b>N</b>
+cards of different kinds. There are many possible combinations for a
+booster pack where no card is repeated. When you pay for one pack, you
+will get any of the possible combinations with equal probability. You
+buy packs one by one, until you own all the <b>C</b> kinds. What is the expected (average) number of booster packs you will need to buy?
+</p>
+
+<p class="problem-item">Input</p>
+<p>
+The first line of input gives the number of cases, <b>T</b>.  <b>T</b> test cases follow, each consisting of a line containing <b>C</b> and <b>N</b>.<br>
+</p>
+
+<p class="problem-item">Output</p>
+<p>
+For each test case, output one line in the form
+</p><pre>Case #x: E
+</pre>
+where <b>x</b> is the case number,starting from 1, and <b>E</b> is the expected number of booster packs you will need to buy. Any answer with a relative or absolute error at most 10<sup>-5</sup> will be accepted.
+
+
+<p class="problem-item">Limits</p>
+<p>
+1 ≤ <b>T</b> ≤ 100<br>
+</p>
+
+<p class="problem-item">Small dataset</p>
+<p>
+1 ≤ <b>C</b> ≤ 10<br>
+1 ≤ <b>N</b> ≤ 10<br>
+</p>
+
+<p class="problem-item">Large dataset</p>
+<p>
+1 ≤ <b>C</b> ≤ 40<br>
+1 ≤ <b>N</b> ≤ 40<br>
+</p>
+
+<p class="problem-item">Sample</p>
+<div class="problem-io-wrapper">
+<table>
+<tbody><tr>
+<td>
+<br>
+<span class="problem-item-gray">Input</span>
+<br>&nbsp;
+</td>
+<td>
+<br>
+<span class="problem-item-gray">Output</span>
+<br>&nbsp;
+</td>
+</tr>
+<tr>
+<td>
+<code>
+2<br>
+2 1<br>
+3 2<br>
+<br>
+</code>
+</td>
+<td>
+<code>
+Case #1: 3.0000000<br>
+Case #2: 2.5000000<br>
+<br>
+</code>
+</td></tr></tbody></table>
+</div>
+</div>
+    </div>
+    
+
+    <div id="dsb-analysis-page" class="dsb-content-pages">
+    
+    </div>
+
+    <div style="display: none;" id="dsb-clarification-page" class="dsb-content-pages">
+      <!-- The clarifications table -->
+      <div id="clarTableDiv" class="clarTableWrapper"></div><div>
+        <table style="display: block;" id="dsb-clarification-table">
+          <colgroup span="9">
+            <col width="16%"><col width="2%">
+            <col width="10%"><col width="2%">
+            <col width="28%"><col width="2%">
+            <col width="10%"><col width="2%">
+            <col width="28%">
+          </colgroup>
+          <thead>
+            <tr>
+            <th>Category</th><th>&nbsp;</th>
+            <th class="clarTimeColumn">Asked</th><th>&nbsp;</th>
+            <th>Question</th><th>&nbsp;</th>
+            <th class="clarTimeColumn">Answered</th><th>&nbsp;</th>
+            <th>Answer</th>
+            </tr>
+          </thead>
+          <tbody id="dsb-clarification-tbody"><tr class="dsb-clar-tr dsb-clar-tr-announcement"><td class="clarProbTd">Multi-base happiness<br><span style="color: rgb(102, 102, 102);">Announcement</span></td><td></td><td class="clarTimeColumn">2:02</td><td></td><td><i>When checking whether a number is happy in base B, all calculations are done in base B, right?</i></td><td></td><td class="clarTimeColumn">19:26</td><td></td><td><i>Yes: when checking whether a number is happy in base B, all calculations should be performed in base B.</i></td></tr></tbody>
+        </table>
+      </div>
+      <div style="display: block;" id="dsb-submit-clarification">
+        <!-- The link to ask a clarification -->
+        <div style="padding: 0.5em 0pt 0.3em;">
+          <b>Ask a question:</b>
+        </div>
+        <!-- The form for asking clarification -->
+        <div>
+          <form onsubmit="return GCJ.submitClarification(this);"><div style="display: none;"><input name="csrfmiddlewaretoken" value="MmEwMDU1M2RlODRlYmFkNzVlZmM3NmYwOGFkMzAzMGV8MTE2NzYyNTYzMDkzMTQ2NDg1MjA0fHwxMjUyNzE3MjA2NTM3MTc4" type="hidden"></div>
+            <div><textarea rows="5" cols="60" name="q"></textarea></div>
+            <div style="padding-top: 0.3em;">
+            <select name="problem">
+              <option value="_" selected="selected">[General]</option>
+              
+              <option value="168107">Multi-base happiness</option>
+              
+              <option value="144111">Crossing the Road</option>
+              
+              <option value="190103">Collecting Cards</option>
+              
+            </select>
+            &nbsp;
+            <input id="dsb-submit-clarification-button" value="Ask" type="submit">
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Too many pending clarifications -->
+      <div id="dsb-cannot-ask-question-text" style="padding: 0.5em 0pt 0.3em; font-weight: bold; display: none;">
+        There is a maximum of 8 pending questions.
+        You can ask more questions as soon as we have responded to some of your
+        questions.
+      </div>
+
+    </div>
+
+    <div id="dsb-submissions-page" class="dsb-content-pages">
+      <div id="dsb-submissions-status" class="dsb-sub-status-msg">
+        You have 0 submissions.
+      </div>
+      <table id="dsb-submissions-table" class="dsb-sub-main-table" style="display: none;">
+      <thead>
+        <tr id="dsb-sub-main-table-header">
+          <th class="dsb-sub-row-id-width">ID</th>
+          <th class="dsb-sub-name-width">Problem</th>
+          <th class="dsb-sub-difficulty-width">Difficulty</th>
+          <th class="dsb-sub-input-width">Input</th>
+          <th class="dsb-sub-output-width">Output</th>
+          <th class="dsb-sub-source-width">Solution</th>
+          <th class="dsb-sub-status-width">Status</th>
+          <th class="dsb-sub-time-width">Time</th>
+        </tr>
+      </thead>
+      <tbody id="dsb-submissions-rows">
+      </tbody>
+      </table>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<div id="dsb-input-dropdown-menu0-0" class="dsb-input-dropdown-menu"><span class="dsb-input-link-span dsb-input-dropdown-menu-item" id="dsb-input-link-zip0-0"><img src="dashboard_files/zip.gif" class="dsb-input-link-img"><span class="dsb-input-link-text" id="dsb-input-link-zip-text0-0">A-small.in.zip</span></span></div><div id="dsb-input-dropdown-menu0-1" class="dsb-input-dropdown-menu"><span class="dsb-input-link-span dsb-input-dropdown-menu-item" id="dsb-input-link-zip0-1"><img src="dashboard_files/zip.gif" class="dsb-input-link-img"><span class="dsb-input-link-text" id="dsb-input-link-zip-text0-1">A-large.in.zip</span></span></div><div id="dsb-input-dropdown-menu1-0" class="dsb-input-dropdown-menu"><span class="dsb-input-link-span dsb-input-dropdown-menu-item" id="dsb-input-link-zip1-0"><img src="dashboard_files/zip.gif" class="dsb-input-link-img"><span class="dsb-input-link-text" id="dsb-input-link-zip-text1-0">B-small.in.zip</span></span></div><div id="dsb-input-dropdown-menu1-1" class="dsb-input-dropdown-menu"><span class="dsb-input-link-span dsb-input-dropdown-menu-item" id="dsb-input-link-zip1-1"><img src="dashboard_files/zip.gif" class="dsb-input-link-img"><span class="dsb-input-link-text" id="dsb-input-link-zip-text1-1">B-large.in.zip</span></span></div><div id="dsb-input-dropdown-menu2-0" class="dsb-input-dropdown-menu"><span class="dsb-input-link-span dsb-input-dropdown-menu-item" id="dsb-input-link-zip2-0"><img src="dashboard_files/zip.gif" class="dsb-input-link-img"><span class="dsb-input-link-text" id="dsb-input-link-zip-text2-0">C-small.in.zip</span></span></div><div id="dsb-input-dropdown-menu2-1" class="dsb-input-dropdown-menu"><span class="dsb-input-link-span dsb-input-dropdown-menu-item" id="dsb-input-link-zip2-1"><img src="dashboard_files/zip.gif" class="dsb-input-link-img"><span class="dsb-input-link-text" id="dsb-input-link-zip-text2-1">C-large.in.zip</span></span></div></div>
+
+<div style="display: none;" id="dsb-loading-message-div">Google Code Jam loading...</div>
+
+<div style="height: 3em; clear: both;"></div>
+<div id="footer">
+  <span id="copyright">©2008 Google</span>
+  <a href="http://www.google.com/">Google Home</a> -
+  <a href="http://code.google.com/codejam/terms.html">Terms and Conditions</a><br><br>
+  <a href="http://code.google.com/appengine"><img src="dashboard_files/appengine-noborder-120x30.gif"></a>
+</div>
+
+<div style="height: 1em;">&nbsp;</div>
+
+<script type="text/javascript">
+GCJ.initHistory();
+</script><input name="history_state0" id="history_state0" style="display: none;" type="text">
+
+</div></body></html>

@@ -1,0 +1,22 @@
+10
+1 -> 1, 2, 5, 10
+4 -> 3, 6
+2 -> 4
+7 -> 7
+4 -> 8
+9 -> 9
+
+LCM = lcm ( N, num)
+LCM / N
+
+ a * N = gcd (a,N) * lcm (a,N)
+ lcm(a,N)/N = B 
+ 
+ if (isprime(a)){ return 1;}
+ 
+ calculate B*N
+ get all factors of B*N
+ for all factors,
+ 	if lcm(a,N)/N != B
+ 		remove a from list
+ return size of list

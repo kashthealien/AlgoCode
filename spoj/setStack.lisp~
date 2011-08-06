@@ -1,0 +1,3 @@
+(defun main()
+	(setf x (read))
+	(print x))

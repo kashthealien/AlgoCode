@@ -1,0 +1,63 @@
+    #http://www.spoj.pl/problems/ARITH/
+    import string
+    import re
+
+    def parser(lines):
+        re_nums = re.compile("[0-9]*")
+        re_sign = re.compile("[+,\-,*]")
+       
+        for ii in string.split(lines, '\n'):
+            nums = re_nums.findall(ii) #finds the 2 numbers
+            sign = re_sign.findall(ii) #finds the sign
+
+            if re_sign.search(ii) and len(nums) == 4: #checks that there is 2 numbers and a sign
+                if sign[0] == "+":
+                    add(int(nums[0]),int( nums[2]))
+                elif sign[0] == "-":
+                    subtract(int(nums[0]),int( nums[2]))
+                elif sign[0] == "*":
+                    multiply(int(nums[0]),int(nums[2]))
+
+    def multiply(vala, valb):
+        product = vala * valb
+        rr = max(len(`vala`), len(`valb`) +1, len(`product`)) #how far right to align the calculation
+        print
+        print string.rjust(`vala`, rr)
+        print string.rjust('*' + `valb`, rr)
+        print string.rjust('-' * max(len(`vala`), len(`valb`)+1), rr)
+       
+        if len(`valb`) > 1: #if there is more then one digit in the multiplyer do split and sum
+            for xx in ''.join(reversed(`valb`)): #revese the string to make digits sum correct
+                print string.rjust(str(int(xx) * vala), rr)
+                rr = rr - 1
+            print "-" * len(`product`)
+       
+        print product
+       
+    def add(vala, valb):
+        sum = vala + valb
+        rr = max(len(`vala`), len(`valb`) +1, len(`sum`)) #how far right to align the calculation
+        print
+        print string.rjust(`vala`, rr)
+        print string.rjust('+' + `valb`, rr)
+        print string.rjust('-' * rr, rr)
+        print string.rjust(`sum`, rr)
+       
+    def subtract(vala, valb):
+        sum = vala - valb
+        rr = max(len(`vala`), len(`valb`) +1, len(`sum`)) #how far right to align the calculation
+        print
+        print string.rjust(`vala`, rr)
+        print string.rjust('-' + `valb`, rr)
+        print string.rjust('-' * rr, rr)
+        print string.rjust(`sum`, rr)   
+       
+    if __name__ == '__main__':
+        input = ''
+        items = int(raw_input())
+        ii = 0
+        while ii < items:
+            input = input + str(raw_input()) + '\n'
+            ii = ii + 1
+        parser(input)
+
