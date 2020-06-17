@@ -4,7 +4,7 @@ LANG: C++
 TASK: gift1
 */
 /*******************************************************************************
- *	Author 		: Kashyap R Puranik ( kashthealien at gmail dot com )
+ *	Author 		: Kashyap R Puranik ( kashyap.r.puranik at gmail dot com )
  *	fileName	: gift1.cpp
  *	description : solves the problem in usaco by the name gift1
  *

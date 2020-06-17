@@ -1,5 +1,5 @@
 /*******************************************************************************
- *	Author 		: Kashyap R Puranik ( kashthealien at gmail dot com )
+ *	Author 		: Kashyap R Puranik ( kashyap.r.puranik at gmail dot com )
  *	fileName	: puzzle.cpp
  *	description : solves the problem in oct 09 codechef by the name 'A Puzzle'
  *

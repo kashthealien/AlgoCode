@@ -1,5 +1,5 @@
 /*******************************************************************************
- *  Author      : Kashyap R Puranik ( kashthealien at gmail dot com )
+ *  Author      : Kashyap R Puranik ( kashyap.r.puranik at gmail dot com )
  *  fileName    : dualpal.cpp
  *  description : converts a number from base 10 to base x(input)
  *

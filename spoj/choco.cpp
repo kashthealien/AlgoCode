@@ -1,6 +1,6 @@
 /*******************************************************************************
  * Author       : KashYap R Puranik
- * email        : kashthealien (at) gmail (dot) com
+ * email        : kashyap.r.puranik (at) gmail (dot) com
  * copYright    : 2008 - 2009
  * date         : 23 - 07 -09
  * 
